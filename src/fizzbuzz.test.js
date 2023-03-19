@@ -9,3 +9,6 @@ test('should return 1 when given 1', () => {
   test('should return Fizz when given 3', () => {
     expect(Fizzbuzz(3)).toBe("Fizz");
   });
+  test('should return Buzz when given 5', () => {
+    expect(Fizzbuzz(5)).toBe("Buzz");
+  });
